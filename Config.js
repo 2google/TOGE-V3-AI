@@ -2,8 +2,8 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "6283833304947"],
-global.ownername = process.env.OWNER_NAME || "𓆩𝐓𝐎𝐆𝐄𓆪 ✇ ◤✞𝐈𝐍𝐔𝐌𝐀𝐊𝐈",
+global.ownernumber = [ process.env.OWNER_NUMBER || "2250555236730"],
+global.ownername = process.env.OWNER_NAME || "𓆩 ȥҽƚʂυ",
 global.ytname = "YT: kenzo3146"
 global.socialm = "GitHub: toge012345"
 global.location = "Africa"
@@ -22,17 +22,17 @@ global.wm = "𝐓𝐎𝐆𝐄_𝐁𝐎𝐓 𝐈𝐧𝐜 ✨"
 global.link = 'https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z'
 
 //custom prefix
-global.prefa = process.env.PREFIX || ".",
+global.prefa = process.env.PREFIX || ",",
 
 //false=disable and true=enable
 global.welcome = process.env.WELCOME || "false", //auto welcome
-global.autoRecording = false //auto recording
+global.autoRecording = true //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = false //auto update bio
 global.anti212 = true //auto block +212
-global.autoread_status = false //auto view status/story
+global.autoread_status = true //auto view status/story
 
 
 
